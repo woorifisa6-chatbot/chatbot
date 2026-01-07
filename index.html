@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WOORI Chatbot</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="app">
+      <!-- Header -->
+      <header class="header">
+        <div class="header__brand">
+          <img
+            src="./assets/original.svg"
+            alt="WOORI Chatbot Logo"
+            class="header__logo"
+          />
+          <h1 class="header__title">WOORI Chatbot</h1>
+        </div>
+      </header>
+
+      <!-- Chat -->
+      <main class="chat" id="chat">
+        <!-- Bot message -->
+        <div class="msg msg--bot">
+          <div class="bubble bubble--bot">
+            <p class="bubble__text">안녕하세요! 무엇을 도와드릴까요?</p>
+            <div class="bubble__meta">오전 9:30</div>
+          </div>
+        </div>
+
+        <!-- User message -->
+        <div class="msg msg--user">
+          <div class="bubble bubble--user">
+            <p class="bubble__text">오늘 날씨 어때?</p>
+            <div class="bubble__meta">오전 9:30</div>
+          </div>
+        </div>
+
+        <!-- Bot message -->
+        <div class="msg msg--bot">
+          <div class="bubble bubble--bot">
+            <p class="bubble__text">
+              "오늘 날씨 어때?"에 대한 답변입니다. 실제 서버 연동 시 이 부분이
+              API 응답으로 대체됩니다.
+            </p>
+            <div class="bubble__meta">오전 9:30</div>
+          </div>
+        </div>
+      </main>
+      <!-- Input -->
+      <footer class="composer">
+        <div class="composer__inner">
+          <input
+            class="composer__input"
+            type="text"
+            placeholder="금융 용어를 입력하면 쉽게 설명해 드려요."
+            aria-label="message input"
+          />
+          <button class="composer__send" type="button" aria-label="send">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+              <path
+                d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
