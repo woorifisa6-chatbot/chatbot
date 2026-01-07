@@ -1,4 +1,4 @@
-# Chatbot Practice
+# 🤖 Chatbot Practice 🤖
 
 -------------------------
 
@@ -10,7 +10,7 @@
 금융 관련 지식이 없는 학습 대상자들을 상대로 Clova chatbot API를 활용한 문답형 챗봇 제작
 
 
-## OverView
+## ✏️ OverView
 
 -------------------------
 
@@ -23,12 +23,13 @@
 ### Tool
 ![vscode](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 
-### Members
+### 👥 Members
 | 이혜윤 | 박재하 | 조우재 | 김지민 |
 |:------:|:------:|:------:|:------:|
 | <img src="https://avatars.githubusercontent.com/u/109073947?s=48&v=4" alt="이혜윤" width="100"> | <img src="https://avatars.githubusercontent.com/u/127723000?s=48&v=4" alt="박재하" width="100"> | <img src="https://avatars.githubusercontent.com/u/63555689?s=48&v=4" alt="조우재" width="100"> | <img src="https://avatars.githubusercontent.com/u/108601006?v=4" alt="김지민" width="100"> |
 | [GitHub](https://github.com/hyeyoon23/Portfolio.git) | [GitHub](https://github.com/jaepar/jaepar.github.io) | [GitHub](https://github.com/Jo-dv/Jo-dv.github.io) | [GitHub](https://github.com/realjimin/realjimin.git) |
-## How to run
+
+## ✏️ How to run
 
 -------------------------
 
@@ -37,7 +38,7 @@ git clone https://github.com/woorifisa6-chatbot/chatbot.git
 npm start
 ```
 
-## Structure
+## ✏️Structure
 
 -------------------------
 
@@ -58,7 +59,7 @@ chatbot-main/
 └─── README.md              # 프로젝트 개요 및 사용 방법
 ```
 
-## Key features
+## ✏️Key features
 
 -------------------------
 
@@ -71,5 +72,3 @@ chatbot-main/
 - **채팅 화면**
     - 질문에 대한 답변을 화면에 채팅 메시지로 표시
 
-## Project Statement
-Model Updating...
