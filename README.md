@@ -2,6 +2,8 @@
 
 -------------------------
 
+<img width="490" height="906" alt="Image" src="https://github.com/user-attachments/assets/b14cfcf9-08d2-41c1-9b45-298d9c6df791" />
+<img width="482" height="902" alt="Image" src="https://github.com/user-attachments/assets/1a505488-58ad-4691-b423-f3789c5d91a0" />
 
 금융 지식 습득을 위한 경제 금융 언어 개념 안내 챗봇
 
