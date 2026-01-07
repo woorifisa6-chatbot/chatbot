@@ -24,7 +24,7 @@
 ### Members
 | 이혜윤 | 박재하 | 조우재 | 김지민 |
 |:------:|:------:|:------:|:------:|
-| <img src="" alt="이혜윤" width="150"> | <img src="" alt="박재하" width="150"> | <img src="" alt="조우재" width="150"> | <img src="https://avatars.githubusercontent.com/u/108601006?v=4" alt="김지민" width="100"> |
+| <img src="https://avatars.githubusercontent.com/u/109073947?s=48&v=4" alt="이혜윤" width="100"> | <img src="https://avatars.githubusercontent.com/u/127723000?s=48&v=4" alt="박재하" width="100"> | <img src="https://avatars.githubusercontent.com/u/63555689?s=48&v=4" alt="조우재" width="100"> | <img src="https://avatars.githubusercontent.com/u/108601006?v=4" alt="김지민" width="100"> |
 | [GitHub](https://github.com/hyeyoon23/Portfolio.git) | [GitHub](https://github.com/jaepar/jaepar.github.io) | [GitHub](https://github.com/Jo-dv/Jo-dv.github.io) | [GitHub](https://github.com/realjimin/realjimin.git) |
 ## How to run
 
@@ -32,7 +32,7 @@
 
 ```
 git clone https://github.com/woorifisa6-chatbot/chatbot.git
-node 
+npm start
 ```
 
 ## Structure
