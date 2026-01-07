@@ -31,12 +31,29 @@ function escapeHtml(str) {
 function addMessage(text, type) {
   const msg = document.createElement("div");
   msg.className = `msg msg--${type}`;
-  msg.innerHTML = `
-      <div class="bubble bubble--${type}">
+
+  if (type === "bot") {
+    msg.innerHTML = `
+      <img
+        src="./assets/wibee.svg"
+        alt="Wibee"
+        class="bot-avatar"
+      />
+      <div class="bubble bubble--bot">
         <p class="bubble__text">${escapeHtml(text)}</p>
         <div class="bubble__meta">${nowTime()}</div>
       </div>
     `;
+  } else {
+    // user 메시지
+    msg.innerHTML = `
+      <div class="bubble bubble--user">
+        <p class="bubble__text">${escapeHtml(text)}</p>
+        <div class="bubble__meta">${nowTime()}</div>
+      </div>
+    `;
+  }
+
   chat.appendChild(msg);
   chat.scrollTop = chat.scrollHeight;
 }
