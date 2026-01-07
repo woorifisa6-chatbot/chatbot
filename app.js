@@ -58,8 +58,7 @@ function addMessage(text, type) {
   chat.scrollTop = chat.scrollHeight;
 }
 
-// 메세지 전달
-function sendMessage() {
+async function sendMessage() {
   if (sendingLock) return;
 
   const text = input.value.trim();
@@ -71,15 +70,25 @@ function sendMessage() {
   addMessage(text, "user");
   input.value = "";
 
-  // 더미 응답 (TODO: 서버 연동)
-  setTimeout(() => {
-    addMessage(`"${text}"에 대한 금융 용어 설명입니다.`, "bot");
+  try {
+    const res = await fetch("http://localhost:3000/chat", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ text }),
+    });
 
-    // 락 해제
+    if (!res.ok) throw new Error(`서버 오류: ${res.status}`);
+
+    const botReply = await res.json();
+    addMessage(botReply, "bot");
+  } catch (err) {
+    addMessage("서버와 통신 중 문제가 발생했어요.", "bot");
+    console.error(err);
+  } finally {
     sendingLock = false;
     sendBtn.disabled = false;
     input.focus();
-  }, 500);
+  }
 }
 
 // 한글 조합 이벤트
