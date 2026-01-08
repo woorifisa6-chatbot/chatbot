@@ -76,4 +76,4 @@ chatbot-main/
 **하단의 질문 입력란에 질문 입력 -> 우측 하단의 메시지 전송 버튼 클릭 -> 질문에 대한 답변이 메신저 형태로 게재**
 
 ## 🎇State
-Implementing a simple chat using Clova Chatbot (ver 1)
+Implementing a simple chat using Clova Chatbot (ver 1, 2026.01.08)
