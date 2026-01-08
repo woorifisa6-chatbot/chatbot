@@ -7,7 +7,7 @@
 
 금융 지식 습득을 위한 경제 금융 언어 개념 안내 챗봇
 
-금융 관련 지식이 없는 학습 대상자들을 상대로 Clova chatbot API를 활용한 문답형 챗봇 제작
+금융 관련 지식이 없는 학습 대상자들을 상대로 **Clova chatbot API**를 활용한 문답형 챗봇 제작
 
 
 ## ✏️ OverView
@@ -20,8 +20,9 @@
 ![node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![js](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white)
 
-### Tool
+### Tool & Environments
 ![vscode](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
 ### 👥 Members
 | 이혜윤 | 박재하 | 조우재 | 김지민 |
@@ -50,12 +51,11 @@ chatbot-main/
 ├─── app.js         # 애플리케이션 컴포넌트
 ├─── index.html     # HTML 템플릿 파일
 ├─── style.css      # 전역 css 파일
-
 ├─── server.js              # 서버
 ├─── .gitignore             # Git 무시 파일 목록
 ├─── package.json           # 프로젝트 종속성 및 스크립트 정의
 ├─── package-lock.json      # 정확한 종속성 버전이 기록된 파일
-
+├─── (.env)                 # port 및 키 정보(사용자 개별 작성 필요)
 └─── README.md              # 프로젝트 개요 및 사용 방법
 ```
 
@@ -71,4 +71,9 @@ chatbot-main/
 
 - **채팅 화면**
     - 질문에 대한 답변을 화면에 채팅 메시지로 표시
+      
+ 
+**하단의 질문 입력란에 질문 입력 -> 우측 하단의 메시지 전송 버튼 클릭 -> 질문에 대한 답변이 메신저 형태로 게재**
 
+## 🎇State
+Implementing a simple chat using Clova Chatbot (ver 1)
