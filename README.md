@@ -47,7 +47,7 @@ npm start
 chatbot-main/  
 ├─── assets/
     ├─── original.svg   # 우리은행 로고
-    └─── signature.svg  # 위비캐릭터
+    └─── wibee.svg  # 위비캐릭터
 ├─── app.js         # 애플리케이션 컴포넌트
 ├─── index.html     # HTML 템플릿 파일
 ├─── style.css      # 전역 css 파일
